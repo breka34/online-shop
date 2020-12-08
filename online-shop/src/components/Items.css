@@ -1,0 +1,187 @@
+ 
+ .items-wrapper {
+   background-color: #ffffff;
+  
+}
+.items-wrapper h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.item-details span {
+    color: grey;
+    font-size: 16px;
+}
+.item-details h5 {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.925); 
+}
+.item-details .fa-icon {
+    margin-left: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2 linear;
+}
+.item-details .fa-icon:hover {
+    color: rgba(0, 0, 0, 0.719);
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 25%;
+    
+
+}
+.item-img img {
+    height: 300px;
+}
+.item-details {
+    margin-top: 10px;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.items-title h4 {
+    text-align: center;
+}
+.item-details p {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-details button {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 4px;
+    border-radius: 5px;
+ border: 0.5px solid;
+}
+.item-details button:hover {
+    background-color: #fff;
+}
+.total {
+    border-bottom: 4px solid red;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item {
+        display:flex;
+        flex-basis: calc(50% - 0px);
+        align-items: center;
+        /* flex-direction: column; */
+        
+         height: 330px;
+        width: 100%;
+        
+    }
+    .item-details button {
+        width: 60%;
+        height:22px;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .item-img img {
+        height: 140px;
+        margin-top: 20px;
+
+    }
+    .item-img img {
+        height: 180px;
+        margin-bottom: 1.6px;
+    }
+    .item-img img:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5); 
+      } 
+    .item .item-details h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .item .item-details span, p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .item-details {
+        width: 100%;
+        height: auto;
+    }
+    .item-details .fa-icon {
+        font-size: 12px;
+    }
+    main .header {
+        position: absolute;
+        top: 10px;
+        right: 14px;
+       
+    }
+    .header button {
+       
+      margin: 4px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+    .header .fa {
+        font-size: 15px;
+    }
+}   
+
+/* zanemari */
+/* main {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 255, 234, 0.925);
+} */
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 12px;
+}
+main {
+    position: relative;
+}
+.total {
+    text-align: center;
+    margin-top: 20px;
+}
+main .header {
+    position: absolute;
+    top: 30px;
+    right:20px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.header button {
+    /* width: 50px;
+    height: 33px; */
+  margin: 3px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header .fa {
+    font-size: 22px;
+}

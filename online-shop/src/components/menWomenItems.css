@@ -1,0 +1,139 @@
+.mens-products {
+    /* border-top: 4px solid black; */
+  }
+  
+  .item {
+    height: 400px;
+    width: 25%;
+    font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+   
+    transition: transform 300ms bounce;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .product-img img {
+      height: 300px;
+  }
+  .product-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .mens-title {
+      text-align: center;
+      margin-top: 12px;
+  }
+ .product-details h1 {
+      font-size: 22px;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.925);
+  }
+  .product-details h4 {
+      font-size: 16px;
+      color: grey;
+  }
+  .price-add span {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 18px;
+      
+  }
+  .mens-title h4 {
+      font-size: 22px;
+  }
+  .price-add .fa-icon {
+      margin-left: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.2s linear;
+  }
+  .price-add .fa-icon:hover {
+      color: rgba(0, 0, 0, 0.719);
+  }
+.item button {
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 4px;
+    border-radius: 5px;
+ border: 0.5px solid;
+}
+.item button:hover{
+    background-color: #fff;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item {
+        display:flex;
+        flex-basis: calc(50% - 0px);
+        align-items: center;
+        /* flex-direction: column; */
+        
+        height: 330px;
+        width: 100%;
+        
+    }
+    .item button {
+        width: 60%;
+        height:22px;
+        text-transform: uppercase;
+    }
+    .product-img img {
+        height: 140px;
+    }
+    .product-details h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .product-details h4 {
+        font-size: 13px;
+        text-align: center;
+    }
+    .price-add span {
+        font-size: 13px;
+        text-align: center;
+    }
+    .product-details {
+        width: 100%;
+        height: auto;
+    }
+    button .fa-icon {
+        font-size: 13px;
+    }
+    .product-img img {
+        height: 140px;
+    }
+    .product-img img {
+        height: 180px;
+        margin-bottom: 8px;
+        
+    }
+    .product-img img{
+        margin-top: 20px;
+    }
+    .product-img img:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5); 
+      }
+}
