@@ -75,6 +75,15 @@
     background-color: #fff;
 
 }
+main {
+    position: relative;
+}
+ .header {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -122,10 +131,11 @@
     }
     .product-img img {
         height: 140px;
+        margin-top: 20px;
     }
     .product-img img {
         height: 180px;
-        margin-bottom: 8px;
+        margin-bottom: 0px;
         
     }
     .product-img img{
@@ -136,4 +146,14 @@
         -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
       }
+     
+   main .header .fa{
+       font-size: 15px;
+   }
+   main .header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom:40px;
+   
+}
 }

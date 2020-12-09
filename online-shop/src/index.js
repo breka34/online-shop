@@ -8,7 +8,6 @@ import WomenItemsTitle from './components/WomenItemsTitle';
 import AllItems from './components/Items';
 import Header from './components/Header'
 import { CartProvider } from './components/CartContext';
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,7 +28,7 @@ ReactDOM.render(
    
       <Route exact path="/AllItems" component={AllItems} />
       <Route path="/MenItemsTitle" component={MenItemsTitle} />
-      <Route path="/WomenItemsTitle" component={WomenItemsTitle} />      
+      <Route path="/WomenItemsTitle" component={WomenItemsTitle} /> 
     </Switch>
     </BrowserRouter>
     

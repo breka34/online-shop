@@ -22,8 +22,11 @@ const Product = ({addToCart}) => {
                   </div>
                 ))}
             </div>
+            
             </>
+            
     )
+    
 }
 
 export default Product
